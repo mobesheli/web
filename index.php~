@@ -12,7 +12,7 @@ $username="root";
 $password="anqAyDz6qQXp";
 $conn= mysqli_connect($servername,$username,$password);
 if (!$conn){
-    die("Connection is not working: ". mysqli_connect_error());
+    die("Connection is not working: ". mysqli_conncet_error());
 }
 echo "Hello SQL"."<br>";
 
