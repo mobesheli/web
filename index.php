@@ -32,6 +32,8 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
-<button type="button" onclick="alert('Wow')">Click Me!</button>
+Name: <input type="text" name="name" value="<?php echo $name;?>">
+Name: <input type="text" name="name" value="<?php echo $lname;?>">
+
 </body>
 </html> 
