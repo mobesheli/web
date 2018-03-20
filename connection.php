@@ -5,7 +5,7 @@ function Connect()
 {
  $dbhost = "localhost";
  $dbuser = "root";
- $dbpass = "";
+ $dbpass = "anqAyDz6qQXp";
  $dbname = "responses";
  
  // Create connection
