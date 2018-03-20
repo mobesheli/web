@@ -32,5 +32,6 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+<button type="button" onclick="alert('Wow')">Click Me!</button>
 </body>
 </html> 
